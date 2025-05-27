@@ -41,11 +41,11 @@ export async function generateMetadata(
             title,
             description,
             images: `${file.player_img}`,
-            url: `/v/${file.file_code}#${file.file_title}`,
+            url: `/v/${file.file_code}`,
             type: `article`,
         },
         alternates: {
-            canonical: `/v/${file.file_code}#${file.file_title}`,
+            canonical: `/v/${file.file_code}`,
         },
     };
 }
@@ -69,7 +69,7 @@ export default async function Video({ params }: PageProps) {
         headline: `${file.file_title}`,
         image: file.splash_img,
         description: `${file.file_title} di ${SITENAME} Video Bokep Indo Viral Terbaru Xpanas Bocil Ngentot Jilbab Smp Mama Sma`,
-        url: `https://videobokepmom.pages.dev/v/${file.file_code}#${file.file_title}`,
+        url: `https://videobokepmom.pages.dev/v/${file.file_code}`,
         datePublished: new Date(
             file.file_created + ".000Z"
         ).toISOString(),
@@ -89,7 +89,7 @@ export default async function Video({ params }: PageProps) {
         headline: `${file.file_title}`,
         image: file.player_img,
         description: `${file.title} di ${SITENAME} Video Bokep Indo Viral Terbaru Xpanas Bocil Ngentot Jilbab Smp Mama Sma`,
-        url: `https://videobokepmom.pages.dev/v/${file.file_code}#${file.file_title}`,
+        url: `https://videobokepmom.pages.dev/v/${file.file_code}`,
         datePublished: new Date(
             file.file_created + ".000Z"
         ).toISOString(),
@@ -106,7 +106,7 @@ export default async function Video({ params }: PageProps) {
                 userInteractionCount: `${file.file_views}`,
             interactionType: {
                 '@type': `ReadAction`,
-                target: `https://videobokepmom.pages.dev/v/${file.file_code}#${file.file_title}`
+                target: `https://videobokepmom.pages.dev/v/${file.file_code}`
             }  
         }
         }
@@ -134,8 +134,8 @@ export default async function Video({ params }: PageProps) {
         />
         {/* ... */}
         </section>
-                        <iframe
-                className="w-full h-[30vh] md:h-[55vh] lg:h-[70vh]"
+            <iframe
+                className="w-full h-[90vh] md:h-[90vh] lg:h-[90vh]"
                 src={`https://filemoon.to/e/${file.file_code}`}
                 scrolling="no"
                 title={file.file_title}
@@ -147,17 +147,16 @@ export default async function Video({ params }: PageProps) {
                     <CardTitle className="text-xl md:text-3xl font-bold">
                         {file.file_title}
                     </CardTitle>
-                </CardHeader><center><script
-      dangerouslySetInnerHTML={{
-         __html: `(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1078976})`,
-      }}
-   /><Script strategy="lazyOnload" data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"/><ins id="1078976" data-width="300" data-height="100"></ins></center>
-            <p>{file.file_title} di {SITENAME} Video Bokep Indo Viral Terbaru Xpanas Bocil Ngentot Jilbab Smp Mama Sma Jepang Jav Barat Simontok hub sotwe olmek avtube pijat pure gudang pemerkosaan rumah tobrut inggris ngintip vcs binor yandex update remaja {SITENAME} wiki raja bokeptube full porno videobokepmoma simontok {file.file_title} playbokep indobokep xpanasonline indoh janda streaming jepang barat korea japan jav cina japanese china rusia arab india thailand hd anime hentai bokepind gudang avtub pijat sotwe rumah pemerkosaan inggris xpanas pure tobrut vcs ngintip binor {SITENAME} remaja yandex update perselingkuhan wiki raja full com porno indoh Hotbabes Big Tits Family Freeporn Ass Naked Celebs Nude Cam Hot Videos Fucking Free Porno Adult Movies Mom Freesex Nudelive Cams Women Stepmom Hotwife Bigtits Melons Tube Huge Tits Pornos Film x Titshits Pornofilme Nice Natural Fuq Girls Teen Sex Pornstars Tube Dick Jihad</p>
-            </Card><script
-		dangerouslySetInnerHTML={{
-         __html: `(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1058210})`,
-      }}
-   /><Script data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"/><ins id="1058210" data-width="300" data-height="262"></ins><Script src="https://js.juicyads.com/jp.php?c=947403z2v256s2x2x294z2b4&u=http%3A%2F%2Fwww.juicyads.rocks"/><Script src="https://js.juicyads.com/jp.php?c=947403z2v256s2x2x294z2b4&u=http%3A%2F%2Fwww.juicyads.rocks"/>
+                </CardHeader>
+<center><Script dangerouslySetInnerHTML={{__html: `(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1078976})`,}}/>
+<Script data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"/>
+<ins id="1078976" data-width="300" data-height="112"></ins></center>
+                        <p>{file.file_title} di {SITENAME} Video Bokep Indo Viral Terbaru Xpanas Bocil Ngentot Jilbab Smp Mama Sma Jepang Jav Barat Simontok hub sotwe olmek avtube pijat pure gudang pemerkosaan rumah tobrut inggris ngintip vcs binor yandex update remaja {SITENAME} wiki raja bokeptube full porno bokepindomama simontok {file.file_title} playbokep indobokep xpanasonline indoh janda streaming jepang barat korea japan jav cina japanese china rusia arab india thailand hd anime hentai bokepind gudang avtub pijat sotwe rumah pemerkosaan inggris xpanas pure tobrut vcs ngintip binor {SITENAME} remaja yandex update perselingkuhan wiki raja full com porno indoh Hotbabes Big Tits Family Freeporn Ass Naked Celebs Nude Cam Hot Videos Fucking Free Porno Adult Movies Mom Freesex Nudelive Cams Women Stepmom Hotwife Bigtits Melons Tube Huge Tits Pornos Film x Titshits Pornofilme Nice Natural Fuq Girls Teen Sex Pornstars Tube Dick Jihad</p>
+            </Card>
+ <center><Script dangerouslySetInnerHTML={{__html: `(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1058210})`,}}/>
+<Script data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"/>
+<ins id="1058210" data-width="300" data-height="262"></ins></center>
+<Script src="https://js.juicyads.com/jp.php?c=947403z2v256s2x2x294z2b4&u=http%3A%2F%2Fwww.juicyads.rocks"/>
             <h2 className="text-2xl font-bold text-center my-4">Related Video {file.file_title}
             </h2>
             <SearchCardList query={file.file_title.split(" ")[2]} />
